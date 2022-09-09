@@ -1,3 +1,1 @@
-script that compiles a C file and creates an executable named cisf
-
-un
+script that generates the assembly code (Intel syntax) of a C code and save it in an output file
