@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - program that prints its name, followed by a new line
- * @argc: argument that contains argument input
+ * @argc: argument that contain argument input
  * @argv: argument that stores the strings in an array of char* (strings)
  * Return: 0
  */
