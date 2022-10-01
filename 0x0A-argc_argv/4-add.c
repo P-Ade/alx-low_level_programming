@@ -9,12 +9,11 @@
  *
  * Return: o if no errors, else 1
  */
-
 int main(int argc, char *argv[])
 {
 	int a = 0, i, j;
 
-	for (i = 1, i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
