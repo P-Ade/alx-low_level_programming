@@ -7,8 +7,9 @@
  * @argc: number of arguments passed to the function
  * @argv: argument vector of pointers to strings
  *
- * Return: o if no errors, else 1
+ * Return: 0 if no errors, else 1
  */
+
 int main(int argc, char *argv[])
 {
 	int a = 0, i, j;
