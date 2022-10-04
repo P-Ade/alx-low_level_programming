@@ -5,7 +5,7 @@
 *@s1: First string
 *@s2: Second string
 *
-*Return:NULL in case of failure, but pointer to new string in
+*Return: NULL in case of failure, but pointer to new string in
 *case of success
 */
 
@@ -25,7 +25,7 @@ char *str_concat(char *s1, char *s2)
 
 	concat_str = malloc(sizeof(char) * len);
 
-	if (concat_str = NULL)
+	if (concat_str == NULL)
 		return (NULL);
 
 	for (index = 0; s1[index]; index++)
