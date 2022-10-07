@@ -9,7 +9,7 @@
  *
  * Return: pointer to newly allocated memory, or NULL if failure
  */
-void *_realloc(void *ptr, unsigned int old_size, insigned int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *p;
 	unsigned int i; max = new_size;
