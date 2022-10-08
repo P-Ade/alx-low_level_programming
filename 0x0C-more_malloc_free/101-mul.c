@@ -95,7 +95,7 @@ void init(char *str, int l)
 
 	for (i = 0; i < l; i++)
 		str[i] = '0';
-	str[i] = '\0'
+	str[i] = '\0';
 }
 
 /**
@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
 	int l1, l2, ln, ti, i;
 	char *a;
 	char *t;
-	char e[] = "Error\n"
+	char e[] = "Error\n";
 
 	if (argc != 3 || check_for_digits(argv))
 	{
