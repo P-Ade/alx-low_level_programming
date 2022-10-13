@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void print_opcode(char *a, int n)
+void print_opcodes(char *a, int n)
 {
 	int i;
 
